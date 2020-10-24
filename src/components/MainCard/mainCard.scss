@@ -1,0 +1,77 @@
+.card {
+  &-content {
+    width: max-content;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  &-temp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    p {
+      margin: 0;
+      font-size: 60px;
+      span {
+        font-size: 25px;
+        vertical-align: text-top;
+      }
+    }
+
+    img {
+      width: 60px;
+      margin-left: 20px;
+    }
+  }
+
+  &_head {
+    text-transform: capitalize;
+    font-size: 18px;
+    p {
+      color: #646464;
+      margin: 0;
+    }
+  }
+
+  &-main-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  &-weather-desc {
+    p {
+      &:first-child {
+        color: #646464;
+        text-transform: capitalize;
+      }
+      margin: 0;
+      font-size: 16px;
+      color: #808080;
+
+      span {
+        margin-left: 3px;
+        color: #646464;
+        font-size: 18px;
+        span {
+          font-size: 10px;
+          vertical-align: text-top;
+        }
+      }
+    }
+  }
+  &-more-info {
+    margin-left: 100px;
+    color: #646464;
+
+    p {
+      margin: 0;
+      font-size: 15px;
+    }
+  }
+
+  .ant-card-body {
+    padding: 0;
+  }
+}
